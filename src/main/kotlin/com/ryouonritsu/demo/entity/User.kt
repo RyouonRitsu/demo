@@ -14,5 +14,5 @@ class User(
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    val userId = 0L
+    var userId = 0L
 }
